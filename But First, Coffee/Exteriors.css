@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar-logo img {
+    height: 170px; 
+    width: auto;
+}
+
+
+.navbar-title {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.navbar-title h1 {
+    font-size: 1.5rem; 
+    margin: 0;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #f0c040;
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+.exterior-section {
+    padding: 60px 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.exterior-section .exterior-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f2a900;
+}
+
+.exterior-section .exterior-content p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.exterior-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.exterior-image {
+    width: 32%;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.exterior-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.exterior-image:hover img {
+    transform: scale(1.1);
+}
+
+
+.contact-section {
+    padding: 40px 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f2a900;
+}
+
+.contact-section address p {
+    font-size: 1.2rem;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 1rem;
+}
